@@ -1,3 +1,17 @@
+/* Import the Font */
+@font-face {
+  font-family: 'VGAsquarePx';
+  src: url(webfonts/vga_squarepx.eot);
+  src: url(webfonts/vga_squarepx.eot?#iefix) format('embedded-opentype'),
+       url(webfonts/vga_squarepx.woff2) format('woff2'),
+       url(webfonts/vga_squarepx.woff) format('woff'),
+       url(webfonts/vga_squarepx.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {font-family:VGAsquarePx, monospace; font-size:24px; line-height:24px; font-smooth: never; -webkit-font-smoothing : none;}
+
 /* VGA Palette colors */
 .fg0 {color: #000} .fg1 {color: #00a} .fg2 {color: #0a0}
 .fg3 {color: #0aa} .fg4 {color: #a00} .fg5 {color: #a0a}
