@@ -1,0 +1,42 @@
+/* VGA Palette colors */
+.fg0 {color: #000} .fg1 {color: #00a} .fg2 {color: #0a0}
+.fg3 {color: #0aa} .fg4 {color: #a00} .fg5 {color: #a0a}
+.fg6 {color: #a50} .fg7 {color: #aaa} .fg8 {color: #555}
+.fg9 {color: #55f} .fg10 {color: #5f5} .fg11 {color: #5ff}
+.fg12 {color: #f55} .fg13 {color: #f5f} .fg14 {color: #FF5}
+.fg15 {color: #FFF}
+
+.bg0 {background-color: #000} .bg1 {background-color: #00a} .bg2 {background-color: #0a0}
+.bg3 {background-color: #0aa} .bg4 {background-color: #a00} .bg5 {background-color: #a0a}
+.bg6 {background-color: #a50} .bg7 {background-color: #aaa} .bg8 {background-color: #555}
+.bg9 {background-color: #55f} .bg10 {background-color: #5f5} .bg11 {background-color: #5ff}
+.bg12 {background-color: #f55} .bg13 {background-color: #f5f} .bg14 {background-color: #FF5}
+.bg15 {background-color: #FFF}
+
+
+/* Dialog Padding */
+.pad1 {padding-left:9px; padding-right: 9px;}
+.pad2 {padding-left:18px; padding-right: 18px;}
+.padTop {padding-top:24px;}
+.padBottom {padding-bottom: 24px;}
+
+/* Dialog box */
+.box { position: relative; }
+.box:before {	content:'';	position: absolute;	top:0; left:0; right:0; bottom:0;	border:2px solid #FFF; pointer-events: none;}
+.shadow {box-shadow: 18px 24px 0px 0px rgba(0,0,0,0.75); margin-bottom: 24px;	margin-right: 18px;}
+.dialogTitle { position: absolute; left:0;	top:0; text-align: center; width: 100%; height:24px; cursor: default; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+
+/* Group box */
+.groupBox { position: relative;	padding-top: 24px; margin-bottom: 24px;}
+.groupBox:before { content:''; position: absolute; top:12px; left:0; right:0; bottom:-2px;	border:2px solid;}
+.groupBoxTitle { position: absolute; top:0; left:9px;	white-space: pre;}
+
+/* Shadow Button (button with drop shadow) */
+.shadowButton {	cursor: default; background-color: #aaa; color:#005; white-space: pre; box-shadow: 9px 12px 0px 0px rgba(0,0,0,1);
+		 -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.shadowButton:before {content:'\00a0\00a0';}
+.shadowButton:after {content:'\00a0\00a0';}
+.shadowButton:hover {background-color:#FFF;}
+.shadowButton:hover:before {content:'\25BA\00a0'; color:#00a;}
+.shadowButton:hover:after {content:'\00a0\25C4'; color:#00a;}
+.shadowButton:active {box-shadow:0px 12px 0px 0px rgba(0,0,0,1);; margin-left:9px;}
