@@ -1,2 +1,3 @@
-# webdos-css
-css templates for recreating the text user interfaces of yesteryear on the web.
+# webdos
+A simple css template for recreating the text user interfaces of yesteryear on the web.
+
